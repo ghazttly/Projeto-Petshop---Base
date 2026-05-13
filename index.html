@@ -20,7 +20,7 @@
     <!-- HEADER -->
     <header>
       <div class="logo">
-        <img src="images/logo-transparente.png" alt="Logo PetShop Amigo Fiel" width="100" />
+        <img src="img/logo-transparente.png" alt="Logo PetShop Amigo Fiel" width="100" />
       </div>
       <button id="menu-btn">☰</button>
       <nav id="menu">
@@ -67,16 +67,48 @@
     </section>
 
     <!-- GALERIA -->
-    <section id="galeria" class="container"></section>
+    <section id="galeria" class="container">
+      <h2>Galeria de Fotos</h2>
+      <div class="galeria">
+        <img src="img/tosa.png" alt="Foto de tosa" />
+        <img src="img/pets.png" alt="Foto de pets" />
+        <img src="img/banho.png" alt="Foto de banho" />
+        <img src="img/veterinario.png" alt="Foto de veterinário" />
+      </div>
+    </section>
+
+    <!-- produtos -->
+    <section id="produtos" class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="produtos">
+        <img src="img/shampoo-para-caes-e-gatos.webp" alt="Shampoo Bello Kão para Cães e Gatos" />
+        <img src="img/sache-whiskas.webp" alt="Sache para gatos" />
+        <img src="img/mordedor-pele-bovina.webp" alt="Mordedor natural de pele bovina" />
+        <img src="img/veterinario.png" alt="Foto de veterinário" />
+      </div>
+    </section>
 
     <!-- CONTATO -->
-    <section id="contato" class="container"></section>
+    <section id="contato" class="container">
+      <h2>Entre em Contato</h2>
+      <form id="formContato">
+        <input type="text" placeholder="Digite seu Nome..." id="nome" name="nome"/>
+        <input type="email" placeholder="Digite seu Email..." id="email" name="email"/>
+        <textarea placeholder="Digite sua Mensagem..." id="mensagem" name="mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
 
     <!-- MAPA -->
-    <section id="localizacao" class="container"></section>
-
+    <section id="localizacao" class="container">
+      <iframe  
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7383.756103149092!2d-48.53765948022962!3d-22.282608844319988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8a7d0c576881d%3A0xdf748047a6b4273f!2sZequinha%20Petshop!5e0!3m2!1sen!2sbr!4v1778674065558!5m2!1sen!2sbr" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+      <p>&copy; 2026 PetShop Amigo Fiel. Todos os direitos reservados.</p>
+      <p> Instagram  |  WhatsApp  |  Facebook</p>
+    </footer>
 
     <script src="js/script.js"></script>
   </body>
